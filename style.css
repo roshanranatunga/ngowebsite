@@ -10,7 +10,44 @@ body {
 img {
     vertical-align: baseline;
 }
+/*
+#Buttons
+*/
+    .button-container {
+        display: flex;
+        gap: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 20vh;
+    }
 
+    .large-btn {
+        width: 320px;
+        height: 80px;
+        font-size: 20px;
+        font-weight: bold;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        color: white;
+    }
+
+    .btn-1 {
+        background-color: #007bff;
+    }
+
+    .btn-2 {
+        background-color: #007bff;
+    }
+
+    .btn-3 {
+        background-color: #007bff;
+    }
+
+    .large-btn:hover {
+        opacity: 0.85;
+    }
 /*--------------------------------------------------------------
 # Links
 --------------------------------------------------------------*/
@@ -309,7 +346,7 @@ a:hover, a:active {
 
 .site-navigation ul li a:hover,
 .site-navigation ul li.current-menu-item a {
-    color: #1266f1;
+    color: #2a75f3;
 }
 
 /*
@@ -380,7 +417,7 @@ a:hover, a:active {
 .hero-content-wrap .read-more a {
     display: block;
     padding: 12px 40px;
-    border: 2px solid #19c880;
+    border: 2px solid #2a75f3;
     font-size: 13px;
     font-weight: bold;
     color: #fff;
@@ -390,7 +427,7 @@ a:hover, a:active {
 }
 
 .hero-content-wrap .read-more a:hover {
-    background: #19c880;
+    background: #2a75f3;
 }
 
 /*--------------------------------------------------------------
