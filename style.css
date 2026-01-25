@@ -229,7 +229,7 @@ a:hover, a:active {
 }
 
 .site-title a {
-    color: #fff;
+    color: #070707;
     text-decoration: none;
 }
 
@@ -438,6 +438,7 @@ a:hover, a:active {
 --------------------------------*/
 .icon-boxes {
     border-bottom: 1px solid #ebebeb;
+    text-align: center;
 }
 
 .icon-box {
@@ -700,7 +701,7 @@ a.btn:hover {
 --------------------------------*/
 .featured-courses.horizontal-column,
 .featured-courses.vertical-column {
-    padding: 100px 0;
+    padding: 50px 0;
     background: #fff;
 }
 
@@ -740,10 +741,13 @@ a.btn:hover {
 }
 
 /*
-# Featured Courses: Vertical Column
+# our impact: Vertical Column
 --------------------------------*/
-.featured-courses.vertical-column {
-    background: #f7f7f7;
+.featured-courses.vertical-column .entry-title {
+    background: #fffefe;
+    text-align: center;
+    font-size: 42px;
+    font-weight: 400;
 }
 
 .featured-courses.vertical-column a.btn {
@@ -941,7 +945,7 @@ a.btn:hover {
 # Latest News & Events
 --------------------------------*/
 .latest-news-events {
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 .latest-news-events .heading .entry-title {
