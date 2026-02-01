@@ -569,7 +569,7 @@ a:hover, a:active {
 }
 
 .course-content {
-    margin-top: 50px;
+    margin-top: 10px;
     transition: all .35s
 }
 
@@ -945,12 +945,12 @@ a.btn:hover {
 # Latest News & Events
 --------------------------------*/
 .latest-news-events {
-    padding: 50px 0;
+    padding: 0px 0;
 }
 
 .latest-news-events .heading .entry-title {
     margin: 0 0 50px;
-    font-size: 42px;
+    font-size: 24px;
     font-weight: 400;
 }
 
@@ -991,7 +991,7 @@ a.btn:hover {
 .latest-news-events .featured-event-content .entry-title {
     width: 100%;
     margin-top: 32px;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 400;
     color: #383749;
 }
@@ -2094,7 +2094,7 @@ ul.black-doted {
 
 .blog-post-content-wrap .entry-title {
     margin: 24px 0 0;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 1.4;
     font-weight: 400;
 }
